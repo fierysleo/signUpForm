@@ -1,0 +1,31 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    background-color: #f0f8ff;
+}
+
+.main .leftSide h1 {
+    font-family: 'Norse-Bold', sans-serif;
+    font-size: 6em;
+    color: #ffffff;
+    margin: 0;
+    position: absolute;
+
+}
+
+.main .leftSide {
+    background-image: url('assets/leavesBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face{
+    font-family: Norse-Bold;
+  src: url(assets/Norse-Bold.otf);
+}
