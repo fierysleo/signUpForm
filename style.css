@@ -41,6 +41,11 @@
 .mainTextInput h3{
     text-align: center;
 }
+.inputField{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 .inputName{
     display: flex;
@@ -49,6 +54,19 @@
     font-size: 12px;
 }
 
+.inputInformation{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+.inputPasswordInformation{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    font-size: 12px;
+}
 
 
 @font-face{

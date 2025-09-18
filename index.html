@@ -30,21 +30,45 @@
                     <div class="inputName">
                         <div class="inputFirstName">
                             <label for="firstName">First Name</label><br>
-                            <input type="text" id="firstName" name="firstName" placeholder="First Name">
+                            <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
                         </div>
                         <div class="inputLastName">
                             <label for="firstName">Last Name</label><br>
-                            <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+                            <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+                        </div>   
+                    </div>
+                    <div class="inputInformation">
+                        <div class="inputEmail">
+                            <label for="user_email">Email Address:</label><br>
+                            <input type="email" id="user_email" name="email" placeholder="you@example.com" required>
                         </div>
-                        
+                        <div class="inputNumber">
+                            <label for="number">Phone Number</label><br>
+                            <input type="text" id="number" name="number" placeholder="Phone Number" required>
+                        </div>
+                    </div>
+                    <div class="inputPasswordInformation">
+                        <div class="inputPassword">
+                            <label for="password">Password</label><br>
+                            <input type="password" id="password" name="password" placeholder="Password" required>
+                        </div>
+                        <div class="inputConfirmPassword">
+                            <label for="confirmPassword">Confirm Password</label><br>
+                            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" required>
+                        </div>
                     </div>
                     
                 </div>
                 </div>
+            
+                <div class="buttonSignUp">
+                    <button id="signUpButton" type="submit">Sign Up</button>
+                </div>
+                <div class="alreadyHaveAccount" style="text-align: center; margin-top: 20px;">
+                    <h4>Already have an account? <a href="#">Log in</a></h4>
+                </div>
             </div>
-            <div class="alreadyHaveAccount" style="text-align: center; margin-top: 20px;">
-                <h4>Already have an account? <a href="#">Log in</a></h4>
-            </div>
+           
         </div>
         
     <script src="script.js"></script>
