@@ -5,20 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <div class="main">       
-        <div class="leftSide" style="width: 30%; height: 100%;"  style="position: relative;">
-            <h1>
-                <img src="assets/odin-lined.png" alt="" width="100px" height="100px">
-                Odin
-            </h1> 
+    <div class="main" style="border: 2px black;">       
+        <div class="leftSide" style="width: 400px; height: 700px;"  style="position: relative;">
+            <div class="leftTextContainer">
+                <h1 id="odinLogo">
+                    <img src="assets/odin-lined.png" alt="" width="70px" height="70px">
+                    Odin
+                </h1> 
+            </div>       
         </div> 
 
         <div class="mainText">
-            <h1>Welcome to GreenThumb</h1>
-            <p>Your one-stop shop for all things gardening. Explore our wide range of plants, tools, and accessories to help you cultivate your perfect garden.</p>
-    </div>
-    
+            <div class="introductionText">
+                <h3>This is not a real online service! You know you need something <br> like this in your life to help you realize your deepest dreams. <br>Sign up <em>now</em> to get started.</h3>
+                <h3><br>You <em>know</em> you want to</h3>
+            </div>
+            
+            <div class="mainTextInput">
+                <h3>Lets do This!</h3>
+                <div class="inputField">
+                    <div class="inputName">
+                        <div class="containerInput">
+                            <p style="margin-bottom: -3px;">First name</p>
+                            <input type="text" placeholder="">
+                        </div>
+                        <div class="containerInput">
+                            <p style="margin-bottom: -3px;">Last name</p>
+                            <input type="text" placeholder="">
+                        </div>                     
+                    </div>
+                <div class="inputEmailAndPhone">
+                    <div class="containerInput">
+                        <p style="margin-bottom: -3px;">Email</p>
+                        <input type="text" placeholder="">
+                    </div>
+                    
+                    <div class="containerInput">
+                        <p style="margin-bottom: -3px;">Phone Number</p>
+                        <input type="text" placeholder="">
+                    </div>
+                </div>
+                <div class="inputPassword">
+                    <div class="containerInput">
+                        <p style="margin-bottom: -3px;">Password</p>
+                        <input type="text" placeholder="">
+                    </div>
+                    <div class="containerInput">
+                        <p style="margin-bottom: -3px;">Confirm Password</p>
+                        <input type="text" placeholder="">
+                    </div>
+                </div>
+            </div>
+                
+                
+                
+                
+            </div>
+            <div class="signUpButton">
+                <button>Sign Up</button>
+            </div>
+
+            <div class="alreadyHaveAccount" style="text-align: center; margin-top: 20px;">
+                <h4>Already have an account? <a href="#">Log in</a></h4>
+            </div>
+        </div>
+        
+    <script src="script.js"></script>
 </body>
 </html>
